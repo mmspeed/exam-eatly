@@ -10,10 +10,13 @@ import RangeF from "./assets/purchaseRange1.png";
 import RangeS from "./assets/purchaseRange2.png";
 import Customer from "./assets/customer.png";
 import Discount from "./assets/discountFood.png";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function Home() {
   return (
     <>
+      <Header />
       <div className="container">
         <section className="enjoyFood">
           <div className="enjoyFoodLeft">
@@ -240,6 +243,7 @@ function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
