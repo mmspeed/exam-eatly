@@ -329,7 +329,7 @@ a {
 .dishesAdd {
   color: white;
   background-color: black;
-  border: 2px solid black;
+  border: 2px solid;
   font-size: 25px;
   cursor: pointer;
   padding: 0 10px;
@@ -344,3 +344,285 @@ a {
 
 /* purchases part */
 
+.purchases {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.purchasesLeft {
+  width: 40%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.purchasesChoose {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.purchaseM {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.purchaseThe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.purchaseMn {
+  font-size: 51px;
+  font-weight: 700;
+  color: #18181b;
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.purchasesChoose {
+  margin-bottom: 20px;
+}
+
+.purchasesChoose h1 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.purchasesChoose select {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.purchasesRight {
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 35px;
+}
+
+.purchaseBen {
+  border: 1px solid;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.purchaseImg {
+  border: 1px solid;
+  padding: 0 10px;
+  font-size: 22px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.purchaseThing {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.purchasePrice {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* customer part */
+
+.customer {
+  min-height: 50vh;
+  margin-bottom: 80px;
+}
+
+.customerSay {
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.customerCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customerCard {
+  width: 45%;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.customerInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.customerName {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.customerWord {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: justified;
+}
+
+/* discount part */
+
+.discount {
+  background-color: #6c5fbc;
+  min-height: 45vh;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discountLeft {
+  padding-left: 50px;
+}
+
+.discountLeft h1 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.discountImg {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.discountEnter {
+  font-size: 21px;
+  font-weight: 400;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.discountSend {
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  background-color: #6c5fbc;
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.discountSend:hover {
+  background-color: white;
+  color: #6c5fbc;
+  border: 2px solid #6c5fbc;
+}
+
+/* footer part */
+
+.footer {
+  background: #eaeaea;
+  min-height: 25vh;
+}
+
+.footerLogo {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.footerLicense {
+  font-size: 17px;
+  font-weight: 500;
+  color: #999999;
+  display: flex;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+.footerRight {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.footerRight img {
+  padding-right: 50px;
+  padding-bottom: 40px;
+}
+
+/* questions part */
+
+.questions {
+  min-height: 80vh;
+}
+
+.questionsMain {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.questionZag {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.question img {
+  cursor: pointer;
+}
+
+/* notFound page */
+
+.notFound {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.backHome {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 20px;
+}

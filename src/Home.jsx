@@ -8,6 +8,8 @@ import Dish from "./assets/dishesImg.png";
 import Dishh from "./assets/dish.png";
 import RangeF from "./assets/purchaseRange1.png";
 import RangeS from "./assets/purchaseRange2.png";
+import Customer from "./assets/customer.png";
+import Discount from "./assets/discountFood.png";
 
 function Home() {
   return (
@@ -138,18 +140,23 @@ function Home() {
         <hr />
         <section className="purchases">
           <div className="purchasesLeft">
-            <h1>Control Purchases Via Dashboard</h1>
-            <div className="card">
-              <img src={Dishh} alt="" />
-              <h1>Chicken Hell</h1>
-            </div>
-            <div className="card">
-              <img src={Dishh} alt="" />
-              <h1>Chicken Hell</h1>
-            </div>
-            <div className="card">
-              <img src={Dishh} alt="" />
-              <h1>Chicken Hell</h1>
+            <h1 className="purchaseMn">Control Purchases Via Dashboard</h1>
+            <div className="cards">
+              <div className="card">
+                <img src={Dishh} alt="" />
+                <h1>Chicken Hell-</h1>
+                <p>On the way</p>
+              </div>
+              <div className="card">
+                <img src={Dishh} alt="" />
+                <h1>Swe Dish-</h1>
+                <p>Delivered</p>
+              </div>
+              <div className="card">
+                <img src={Dishh} alt="" />
+                <h1>Fish Hell-</h1>
+                <p>Cancelled</p>
+              </div>
             </div>
           </div>
           <div className="purchasesRight">
@@ -167,21 +174,69 @@ function Home() {
             <div className="purchaseBens">
               <div className="purchaseBen">
                 <div className="purchaseM">
-                  <h1 className="purchaseImg">+</h1>
-                  <p className="purchaseThing">Expense</p>
+                  <div className="purchaseThe">
+                    <h1 className="purchaseImg">+</h1>
+                    <p className="purchaseThing">Expense</p>
+                  </div>
                   <div className="purchasePrice">$400.09</div>
                 </div>
                 <img src={RangeF} alt="" />
               </div>
               <div className="purchaseBen">
                 <div className="purchaseM">
-                  <h1 className="purchaseImg">-</h1>
-                  <p className="purchaseThing">Voucher</p>
+                  <div className="purchaseThe">
+                    <h1 className="purchaseImg">-</h1>
+                    <p className="purchaseThing">Voucher</p>
+                  </div>
                   <div className="purchasePrice">$45.78</div>
                 </div>
                 <img src={RangeS} alt="" />
               </div>
             </div>
+          </div>
+        </section>
+        <hr />
+        <section className="customer">
+          <h1 className="customerSay">Customer Say</h1>
+          <div className="customerCards">
+            <div className="customerCard">
+              <div className="customerInfo">
+                <img src={Customer} alt="" />
+                <h3 className="customerName">Alexander R.</h3>
+              </div>
+              <p className="customerWord">
+                “ Online invoice payment helps companies save time, are faster
+                and save maximum effort for the clients and save maximum effort.
+                Online invoice payment helps companies save time ”
+              </p>
+            </div>
+            <div className="customerCard">
+              <div className="customerInfo">
+                <img src={Customer} alt="" />
+                <h3 className="customerName">Alexander R.</h3>
+              </div>
+              <p className="customerWord">
+                “ Online invoice payment helps companies save time, are faster
+                and save maximum effort for the clients and save maximum effort.
+                Online invoice payment helps companies save time ”
+              </p>
+            </div>
+          </div>
+        </section>
+        <section className="discount">
+          <div className="discountLeft">
+            <h1>GET 50%</h1>
+            <form action="">
+              <input
+                type="email"
+                placeholder="Enter Your Email Address"
+                className="discountEnter"
+              />
+              <input type="submit" value="Subscribe" className="discountSend" />
+            </form>
+          </div>
+          <div className="discountRight">
+            <img src={Discount} alt="" className="discountImg" />
           </div>
         </section>
       </div>
