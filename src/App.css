@@ -782,3 +782,242 @@ a {
 .suSource {
   margin-left: 20px;
 }
+
+/* responsive part */
+
+@media (max-width: 1285px) {
+  .topDishes {
+    padding-top: 30px;
+  }
+  .purchases {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .enjoyFoodMain {
+    font-size: 50px;
+  }
+  .enjoyFoodDesc {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .startBtn {
+    padding: 10px 15px;
+  }
+  .mImg {
+    width: 100%;
+  }
+  .dishesCards {
+    flex-direction: column;
+  }
+  .dishesCard {
+    width: 50%;
+    text-align: center;
+  }
+  .dishesCard img {
+    width: 100%;
+  }
+  .purchaseMn {
+    font-size: 40px;
+  }
+  .purchases {
+    flex-direction: column;
+  }
+  .purchasesLeft {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .purchasesRight {
+    margin-bottom: 30px;
+  }
+  .signUpRight img {
+    width: 100%;
+  }
+  .signUpText {
+    font-size: 30px;
+  }
+  .signUpDesc {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {
+  .enjoyFoodMain {
+    font-size: 40px;
+  }
+  .discountSend {
+    display: none;
+  }
+  .signUpRight {
+    display: none;
+  }
+  .header {
+    display: block;
+  }
+  .signUpLeft {
+    width: 100%;
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 908px) {
+  .qualityMain {
+    font-size: 40px;
+  }
+  .advantage {
+    font-size: 16px;
+  }
+  .qualityDownload {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .enjoyFoodMain {
+    font-size: 40px;
+  }
+  .enjoyFoodDesc {
+    font-size: 16px;
+  }
+  .enjoyFood {
+    margin-top: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .enjoyFoodLeft {
+    margin-bottom: 50px;
+  }
+  .lastResultCats {
+    flex-direction: column;
+  }
+  .lastResultCat {
+    margin-bottom: 10px;
+  }
+  .kingMain {
+    font-size: 30px;
+  }
+  .kingRank {
+    display: none;
+  }
+  .discountLeft h1 {
+    font-size: 50px;
+  }
+  .pagination {
+    flex-wrap: wrap;
+  }
+  .searchL {
+    width: 100%;
+  }
+}
+
+@media (max-width: 716px) {
+  .goodQuality {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .goodQualityRight {
+    margin-bottom: 50px;
+  }
+  .goodQualityLeft img {
+    width: 100%;
+  }
+  .cards2 {
+    display: none;
+  }
+  .purchaseMn {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .purchasesRight {
+    width: 100%;
+  }
+  .purchaseBen img {
+    width: 100%;
+  }
+  .customerSay {
+    font-size: 30px;
+  }
+  .customerCards {
+    flex-direction: column;
+  }
+  .customerCard {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .discount {
+    flex-direction: column;
+  }
+  .discountLeft {
+    margin-bottom: 20px;
+  }
+  .dishPrice {
+    font-size: 20px;
+  }
+  .dishesAdds {
+    font-size: 20px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footerLicense {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .footerRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerRight img {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .purchasesChoose {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .qualityMain {
+    font-size: 35px;
+  }
+  .advantage {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 390px) {
+  .kingMain {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 339px) {
+  .footerRight img {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 243px) {
+  .kingMain {
+    font-size: 16px;
+  }
+  .topMain {
+    font-size: 30px;
+  }
+  .footerLogo img {
+    display: none;
+  }
+}
+
+@media (max-width: 191px) {
+  .catMain {
+    font-size: 30px;
+  }
+}

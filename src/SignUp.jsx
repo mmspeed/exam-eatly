@@ -13,6 +13,10 @@ import RangeF from "./assets/purchaseRange1.png";
 import RangeS from "./assets/purchaseRange2.png";
 import Customer from "./assets/customer.png";
 import Discount from "./assets/discountFood.png";
+import Instagram from "./assets/instagram.png";
+import Linkedin from "./assets/linkedin.png";
+import Facebook from "./assets/facebook.png";
+import Twitter from "./assets/twitter.png";
 
 function SignUp() {
   const name = useRef();
@@ -328,6 +332,28 @@ function SignUp() {
                 <img src={Discount} alt="" className="discountImg" />
               </div>
             </section>
+          </div>
+          <div className="container">
+            <div className="footer">
+              <div className="footerLeft">
+                <div className="footerLogo">
+                  <img src={Logo} alt="" />
+                  <Link to="/home" className="backLink">
+                    eatly
+                  </Link>
+                </div>
+                <hr />
+                <p className="footerLicense">
+                  © 2023 EATLY All Rights Reserved.
+                </p>
+              </div>
+              <div className="footerRight">
+                <img src={Instagram} alt="" />
+                <img src={Linkedin} alt="" />
+                <img src={Facebook} alt="" />
+                <img src={Twitter} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       ) : (

@@ -161,7 +161,7 @@ function Home() {
                   <p>Cancelled</p>
                 </div>
               </div>
-              <div className="cards">
+              <div className="cards cards2">
                 <div className="card">
                   <img src={Dishh} alt="" />
                   <h1>Chicken Hell-</h1>
