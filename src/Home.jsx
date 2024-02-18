@@ -30,7 +30,7 @@ function Home() {
               disclaimer for more details and get paychecks up to two days
               early. Get a $20 bonus.
             </p>
-            <Link to="/signup" className="startBtn">
+            <Link to="/" className="startBtn">
               Get Started
             </Link>
           </div>

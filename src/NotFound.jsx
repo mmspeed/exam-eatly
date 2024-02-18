@@ -5,7 +5,11 @@ export default function NotFound() {
     <div className="container">
       <h2 className="notFound">Page Not Found !</h2>
       <p className="backHome">
-        Go to the <Link to="/">Home</Link>.
+        Go back to the{" "}
+        <Link to="/" className="backPage">
+          HomePage
+        </Link>
+        .
       </p>
     </div>
   );

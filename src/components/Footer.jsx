@@ -13,7 +13,7 @@ function Footer() {
         <div className="footerLeft">
           <div className="footerLogo">
             <img src={logo} alt="" />
-            <Link to="/" className="backLink">
+            <Link to="/home" className="backLink">
               eatly
             </Link>
           </div>

@@ -9,10 +9,10 @@ function Header() {
       <div className="header">
         <div className="headerLeft">
           <img src={logo} alt="" />
-          <Link to="/" className="backLink">
+          <Link to="/home" className="backLink">
             eatly
           </Link>
-          <Link to="/" className="fSource">
+          <Link to="/home" className="fSource">
             Home
           </Link>
           <Link to="/tovars" className="sSource">
@@ -24,7 +24,7 @@ function Header() {
           <Link to="/signin" className="lSource">
             Login
           </Link>
-          <Link to="/signup" className="suSource">
+          <Link to="/" className="suSource">
             Sign Up
           </Link>
         </div>
