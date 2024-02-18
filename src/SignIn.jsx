@@ -35,7 +35,7 @@ function SignIn() {
                 />
               </div>
               <div className="sus">
-                <Link to="/home" className="signUpSubmit">
+                <Link to="/" className="signUpSubmit">
                   Sign In
                 </Link>
               </div>

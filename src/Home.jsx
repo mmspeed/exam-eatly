@@ -21,7 +21,6 @@ function Home() {
         <section className="enjoyFood">
           <div className="enjoyFoodLeft">
             <div className="overmore">
-              <div className="line"></div>
               <p className="overmoreText">OVER 1000 USERS</p>
             </div>
             <h1 className="enjoyFoodMain">Enjoy Foods All Over The World</h1>
@@ -144,21 +143,40 @@ function Home() {
         <section className="purchases">
           <div className="purchasesLeft">
             <h1 className="purchaseMn">Control Purchases Via Dashboard</h1>
-            <div className="cards">
-              <div className="card">
-                <img src={Dishh} alt="" />
-                <h1>Chicken Hell-</h1>
-                <p>On the way</p>
+            <div className="allCr">
+              <div className="cards">
+                <div className="card">
+                  <img src={Dishh} alt="" />
+                  <h1>Chicken Hell-</h1>
+                  <p>On the way</p>
+                </div>
+                <div className="card">
+                  <img src={Dishh} alt="" />
+                  <h1>Swe Dish-</h1>
+                  <p>Delivered</p>
+                </div>
+                <div className="card">
+                  <img src={Dishh} alt="" />
+                  <h1>Fish Hell-</h1>
+                  <p>Cancelled</p>
+                </div>
               </div>
-              <div className="card">
-                <img src={Dishh} alt="" />
-                <h1>Swe Dish-</h1>
-                <p>Delivered</p>
-              </div>
-              <div className="card">
-                <img src={Dishh} alt="" />
-                <h1>Fish Hell-</h1>
-                <p>Cancelled</p>
+              <div className="cards">
+                <div className="card">
+                  <img src={Dishh} alt="" />
+                  <h1>Chicken Hell-</h1>
+                  <p>On the way</p>
+                </div>
+                <div className="card">
+                  <img src={Dishh} alt="" />
+                  <h1>Swe Dish-</h1>
+                  <p>Delivered</p>
+                </div>
+                <div className="card">
+                  <img src={Dishh} alt="" />
+                  <h1>Fish Hell-</h1>
+                  <p>Cancelled</p>
+                </div>
               </div>
             </div>
           </div>

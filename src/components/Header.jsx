@@ -20,7 +20,12 @@ function Header() {
           </Link>
         </div>
         <div className="headerRight">
-          <img src={cart} alt="" />
+          <span>
+            <Link to="/cart">
+              <img src={cart} alt="" />
+            </Link>
+          </span>
+          <span className="cartQuan">1</span>
           <Link to="/signin" className="lSource">
             Login
           </Link>

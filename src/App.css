@@ -114,17 +114,7 @@ a {
 }
 
 .overmore {
-  display: flex;
-  align-items: center;
-  justify-content: left;
   margin-bottom: 20px;
-}
-
-.line {
-  width: 50px;
-  height: 1px;
-  background-color: #201f1f33;
-  margin-right: 15px;
 }
 
 .overmoreText {
@@ -356,12 +346,18 @@ a {
 }
 
 .card {
+  width: 100%;
   display: flex;
   align-items: center;
   border: 2px solid;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 15px;
+  margin-right: 100px;
+}
+
+.allCr {
+  display: flex;
 }
 
 .purchasesChoose {
@@ -584,33 +580,9 @@ a {
 
 /* questions part */
 
-.questions {
-  min-height: 80vh;
-}
-
-.questionsMain {
-  font-size: 45px;
-  font-weight: 600;
+.accordion {
   margin-top: 50px;
-  text-align: center;
   margin-bottom: 50px;
-}
-
-.question {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.questionZag {
-  font-size: 23px;
-  font-weight: 600;
-}
-
-.question img {
-  cursor: pointer;
 }
 
 /* notFound page */
@@ -709,3 +681,104 @@ a {
   border: 2px solid #6c5fbc;
 }
 
+/* paginate page */
+
+.list-group-item {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list-group {
+  padding-top: 30px;
+}
+
+.list-group img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.loading {
+  text-align: center;
+}
+
+.dishesAdds {
+  color: white;
+  background-color: black;
+  border: 2px solid;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.dishesAdds:hover {
+  color: black;
+  background-color: white;
+}
+
+.dishPrice {
+  color: white;
+  background-color: #6c5fbc;
+  border: 2px solid;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.dishPrice:hover {
+  color: #6c5fbc;
+  background-color: white;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cart page */
+
+.cartQuan {
+  padding: 0 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+}
+
+/* search part */
+
+.searchL {
+  border: 2px solid #6c5fbc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+}
+
+.notSuit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.searchFor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.finally {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.suSource {
+  margin-left: 20px;
+}
