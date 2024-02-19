@@ -17,6 +17,7 @@ import Instagram from "./assets/instagram.png";
 import Linkedin from "./assets/linkedin.png";
 import Facebook from "./assets/facebook.png";
 import Twitter from "./assets/twitter.png";
+import Header from "./components/Header";
 
 function SignUp() {
   const name = useRef();
@@ -25,11 +26,6 @@ function SignUp() {
 
   const [showHome, setShowHome] = useState(false);
   const localSignUp = localStorage.getItem("signUp");
-
-  const logout = () => {
-    localStorage.removeItem("signUp");
-    window.location.reload();
-  };
 
   useEffect(() => {
     if (localSignUp) {
@@ -52,39 +48,7 @@ function SignUp() {
     <>
       {showHome ? (
         <div className="con">
-          <div className="extra">
-            <img className="lg" src={Logo} alt="" />
-            <a href="/">eatly</a>
-          </div>
-          <div className="container">
-            <div className="header">
-              <div className="headerLeft">
-                <img src={Logo} alt="" />
-                <Link to="/home" className="backLink">
-                  eatly
-                </Link>
-                <Link to="/home" className="fSource">
-                  Home
-                </Link>
-                <Link to="/tovars" className="sSource">
-                  Dishes
-                </Link>
-              </div>
-              <div className="headerRight">
-                <span>
-                  <Link to="/cart">
-                    <img src={cart} alt="" />
-                  </Link>
-                </span>
-                <span className="cartQuan">1</span>
-                <p className="finally">{localSignUp}</p>
-                <button onClick={logout} className="suSource">
-                  Logout
-                </button>
-              </div>
-            </div>
-            <hr />
-          </div>
+          <Header />
           <div className="container">
             <section className="enjoyFood">
               <div className="enjoyFoodLeft">
