@@ -52,6 +52,10 @@ function SignUp() {
     <>
       {showHome ? (
         <div className="con">
+          <div className="extra">
+            <img className="lg" src={Logo} alt="" />
+            <a href="/">eatly</a>
+          </div>
           <div className="container">
             <div className="header">
               <div className="headerLeft">

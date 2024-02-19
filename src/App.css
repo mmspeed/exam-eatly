@@ -96,6 +96,10 @@ a {
   border: 2px solid #6c5fbc;
 }
 
+.extra {
+  display: none;
+}
+
 /* enjoyFood part */
 
 .enjoyFood {
@@ -852,9 +856,6 @@ a {
   .signUpRight {
     display: none;
   }
-  .header {
-    display: block;
-  }
   .signUpLeft {
     width: 100%;
     margin-top: 130px;
@@ -909,6 +910,11 @@ a {
   .searchL {
     width: 100%;
   }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 716px) {
@@ -928,6 +934,12 @@ a {
   }
   .purchaseMn {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 661px) {
+  .suSource {
+    display: none;
   }
 }
 
@@ -977,6 +989,12 @@ a {
   }
 }
 
+@media (max-width: 516px) {
+  .headerRight {
+    display: none;
+  }
+}
+
 @media (max-width: 479px) {
   .purchasesChoose {
     flex-direction: column;
@@ -995,6 +1013,26 @@ a {
 @media (max-width: 390px) {
   .kingMain {
     font-size: 25px;
+  }
+  .headerLeft {
+    display: none;
+  }
+  .extra {
+    display: block;
+    margin-bottom: -90px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lg {
+    margin-right: 10px;
+  }
+  .extra a {
+    text-decoration: none;
+    color: #6c5fbc;
+    font-size: 20px;
+    font-weight: 700;
   }
 }
 

@@ -30,7 +30,6 @@ function Tovars() {
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  console.log(posts.filter((post) => post.title.toLowerCase().includes("fe")));
   return (
     <>
       <Header />

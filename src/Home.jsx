@@ -17,7 +17,7 @@ function Home() {
   return (
     <>
       <Header />
-      <div className="container">
+      {/* <div className="container">
         <section className="enjoyFood">
           <div className="enjoyFoodLeft">
             <div className="overmore">
@@ -261,7 +261,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
